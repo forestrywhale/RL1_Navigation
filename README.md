@@ -23,13 +23,11 @@ The training method used here is a deep Q-learning with experience replay for a 
 ## To excute the codes
 The code relay on a **Banana.exe** evironment for training and verification. Set up the Python 3.6 environment, and change the **env** to your local **Banana.exe** file path, then the file should be functional. 
 
-### Getting Started
+#### Getting Started
 1. Download the environment the link below (For this project I used Linux)
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 
 2. Place the file in the root folder of the repo and decompress it.
-
-## Instructions
 
 #### Install requirements:
 Create a new environment with Python 3.6 in Anaconda promopt.
@@ -45,7 +43,7 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 
-####
+#### Create an *IPython* kernel
 Create an *IPython* kernel for the drlnd environment.
 ```
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
