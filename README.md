@@ -1,6 +1,7 @@
 # RL1_Navigation
 Udacity Deep Reinforcement Learning Nanodegree Program project 1 
 
+### Environment explained
 The simulation contains a single agent that navigates a large environment. At each time step, it has four actions as following:
 - `0` - walk forward 
 - `1` - walk backward
@@ -8,6 +9,7 @@ The simulation contains a single agent that navigates a large environment. At ea
 - `3` - turn right
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. The goal is to train an smart agent that collect yellow banana while avoid purple banana to achieve a stable high score.
 
+# Files in the repository
 This repository contains 5 files:
 
 - **README.md** - This file prove info for current repository.
@@ -17,3 +19,6 @@ This repository contains 5 files:
 - **checkpoint.pth** - This file contains saved weights for an average score larger than 16.0 for last 100 episode window.
 
 The training method used here is a deep Q-learning with experience replay for a 100 episodes.
+
+# To excute the codes
+The code relay on a **Banana.exe** evironment for training and verification. Set up the Python 3.6 environment, and change the **env** to your local **Banana.exe** file path, then the file should be functional. 
