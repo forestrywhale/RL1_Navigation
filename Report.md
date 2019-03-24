@@ -12,7 +12,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The learning algorithm used here is deep Q-learning method.
 
 #### Q-Learning (or Sarsamax)
-&epsilon
+$epsilon
 
 
 ## Hyperparameters
