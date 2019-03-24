@@ -14,7 +14,6 @@ The learning algorithm used here is deep Q-learning method.
 #### Q-Learning (or Sarsamax)
 _&epsilon
 
-
 ## Hyperparameters
 
 
